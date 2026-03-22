@@ -15,7 +15,7 @@ The goal is to build hands-on experience with:
 
 ## 🧱 Lab Architecture
 
-* **Host:** HP EliteDesk G4 Mini running Proxmox
+* **Host:** HP EliteDesk 800 G4 Mini running Proxmox
 * **Hypervisor:** Proxmox VE
 * **Virtual Machines:**
 
