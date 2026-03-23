@@ -8,12 +8,12 @@ Set up a local hypervisor to host virtual machines for IT support and Active Dir
 ## Steps Completed
 - Installed Proxmox on HP EliteDesk G4 Mini
 
-!["Select boot form usb from EUFI menu"](/BootFromUsb.jpg)  
-!["Image of Proxmox installation screen"](/InstalledProxMox.jpg)
+!["Select boot form usb from EUFI menu"](/BootFromUsb.jpeg)  
+!["Image of Proxmox installation screen"](/InstallProxMox.jpg)
 
 - Configured static IP (192.168.0.50)
 
-![Proxmox IP configuration screen](/ProxMoxConfiguration.jpg)
+![Proxmox IP configuration screen](/ConfigureProxMox.jpg)
 
 - Established network connectivity via Ethernet
 - Accessed web interface successfully
