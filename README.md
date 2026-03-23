@@ -48,9 +48,9 @@ The goal is to build hands-on experience with:
 ## 🧪 Lab Documentation
 
 * [Proxmox Setup](./01-proxmox-setup.md)
-* [Proxmox Setup](./02-iso-upload.md)
-* [Proxmox Setup](./03-create-vm.md)
-* [Proxmox Setup](./04-windows-server-install.md)  
+* [Iso Upload](./02-iso-upload.md)
+* [Create VM](./03-create-vm.md)
+* [Windows Server Install](./04-windows-server-install.md)  
 * (More coming as lab progresses)
 
 ---
