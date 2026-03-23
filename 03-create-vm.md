@@ -40,7 +40,12 @@ The virtual machine was created successfully and was ready for Windows Server in
 ---
 
 ## Screenshots
-- VM creation summary
-- CPU and memory allocation
-- Disk configuration
-- Network configuration
+VM Configuration process
+
+![Proxmox VM Creation General Tab](/DC01General.jpg)
+![Proxmox VM Creation OS Tab](/DC01Os.jpg)
+![Proxmox VM Creation System Tab](/DC01System.jpg)
+![Proxmox VM Creation Disk Tab](/DC01Disk.jpg)
+![Proxmox VM Creation CPU Tab](/DC01CPU.jpg)
+![Proxmox VM Creation Memory Tab](/DC01Memory.jpg)
+![Proxmox VM Creation Network Tab](/DC01Network.jpg)
