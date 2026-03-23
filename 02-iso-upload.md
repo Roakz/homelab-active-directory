@@ -13,3 +13,7 @@ Upload Windows Server ISO for VM deployment.
 
 ## Result
 ISO available for virtual machine creation.
+
+## Notes
+HTTPS is providing encryption, but the browser does not accept the self-signed certificate from Proxmox as trusted. Therefore, it shows a not secure error. This is an acceptable risk in my case because I am on an internal (at home), non-public, trusted LAN environment. The self-signed certificate provides the same level of data encryption (TLS) despite not being signed by a recognised Certificate Authority.
+ 
