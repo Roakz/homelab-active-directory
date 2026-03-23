@@ -64,4 +64,5 @@ Using VirtIO drivers provides better performance compared to legacy disk control
 
 ## Screenshots
 
-
+![Windows server install selection](/DC01WindowsInstall.jpg)
+![VirtIO Driver selection during installation process](/VirtIODriverInstall.jpg)
