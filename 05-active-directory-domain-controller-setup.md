@@ -47,10 +47,13 @@ Windows Server does not include native drivers for Proxmox virtual hardware. Vir
 
 ## Screenshots
 
+*ISO Mounted as CD/DVD
 ![Mounted VirtIO ISO](/VirtIOMounted.jpg)
 
+*ISO contents on drive
 ![VirtIO ISO contents](/VirtIOGuestTools.jpg)
 
+*Confirmed VirtIO network adapter
 ![VirtIO Network adapter in device manager](/VirtIONetworkAdapter.jpg)
 
 ---
@@ -91,10 +94,15 @@ Active Directory requires a stable network configuration with a static IP.
 ## Screenshots
 
 * `Get-NetAdapter`
+![Running PowerShell Get-NetAdapter command](/GetNetAdapter.jpg)
+
 * Static IP configuration
+![Run PowerShell command to set static IP](/IPStatic.jpg)
+  
 * `ipconfig`
 * Successful ping to gateway
 * Successful `nslookup google.com`
+![Verify Network configurations, connectivity, and test DNS](/ConfirmNetwork.jpg)
 
 ---
 
@@ -118,7 +126,10 @@ Rename-Computer -NewName DC01 -Restart
 ## Screenshots
 
 * Rename command
+![Rename server with PowerShell command](/Rename.jpg)
+  
 * `hostname` output after reboot
+![verify hostname post restart](/hostname.jpg)
 
 ---
 
@@ -147,6 +158,8 @@ nslookup google.com
 * Ping success
 * `nslookup` success
 
+![Verify Network configurations, connectivity, and test DNS](/ConfirmNetwork.jpg)
+
 ---
 
 # 5. Active Directory Domain Services Installation
@@ -169,7 +182,10 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ## Screenshots
 
 * Installation command
+![Install Active Directory role](/ADInstalling.jpg)
+
 * Success output
+![Success prompt for AD role install](/ADInstallSuccess.jpg)
 
 ---
 
@@ -208,7 +224,10 @@ Install-ADDSForest `
 
 * Promotion command
 * Installation progress
+![Run PowerShell command to install AD Forest](/InstallADForest.jpg)
+
 * Login screen showing `LAB\Administrator`
+![VM Login screen showing LAB\Administrator](/VMLoginDomainController.jpg)
 
 ---
 
@@ -230,6 +249,7 @@ hostname
 
 * `whoami`
 * `hostname`
+![Result of whoami and hostname command for domain verification](/PostDomainControllerPromotion.jpg)
 
 ---
 
