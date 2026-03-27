@@ -47,10 +47,9 @@ Windows Server does not include native drivers for Proxmox virtual hardware. Vir
 
 ## Screenshots
 
-* Proxmox VM hardware (VirtIO ISO mounted)
-* VirtIO ISO contents inside Windows
-* Driver installer running
-* `ipconfig` showing active network adapter
+![Mounted VirtIO ISO](/VirtIOMounted.jpg)
+![VirtIO ISO contents](/VirtIOGuesTools.jpg)
+![VirtIO Network adapter in device manager](/VirtIONewtworkAdapter.jpg)
 
 ---
 
