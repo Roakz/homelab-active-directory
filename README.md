@@ -51,7 +51,7 @@ The goal is to build hands-on experience with:
 * [Iso Upload](./02-iso-upload.md)
 * [Create VM](./03-create-vm.md)
 * [Windows Server Install](./04-windows-server-install.md)
-* [Windows Server Install](./04-active-directory-domain-controller-setup.md)
+* [Active Directory Setup](./04-active-directory-domain-controller-setup.md)
 * (More coming as lab progresses)
 
 ---
