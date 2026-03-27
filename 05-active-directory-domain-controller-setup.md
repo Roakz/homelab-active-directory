@@ -274,7 +274,7 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet" `
 ## Screenshots
 
 * Command execution
-* `ipconfig /all` showing DNS = 192.168.0.10
+![Run PowerShell command to assign self as DNS Server](/SetDNSSelf.jpg)
 
 ---
 
@@ -293,12 +293,7 @@ Add-DnsServerForwarder -IPAddress 1.1.1.1,8.8.8.8
 ## Outcome
 
 * External queries forwarded to public DNS servers
-* Improved performance and reliability
-
-## Screenshots
-
-* Forwarder configuration
-* `Get-DnsServerForwarder`
+* Improved performance and reliability, rather than relying on root hints
 
 ---
 
@@ -315,10 +310,6 @@ nslookup google.com
 * Queries resolved successfully
 * DNS server identified as DC01
 
-## Screenshots
-
-* `nslookup` output
-
 ---
 
 # Key Concepts Learned
@@ -334,7 +325,7 @@ nslookup google.com
 
 # Summary
 
-This lab successfully deployed a fully functional Active Directory Domain Controller in a Proxmox environment. The server was configured with a static IP, promoted to a Domain Controller, and configured with proper DNS settings including forwarders for external resolution.
+This lab successfully deployed a fully functional Active Directory Domain Controller in a Proxmox environment. The server was configured with a static IP, promoted to a Domain Controller, and configured with proper DNS settings, including forwarders for external resolution.
 
 ---
 
