@@ -274,7 +274,7 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet" `
 ## Screenshots
 
 * Command execution
-![Run PowerShell command to assign self as DNS Server](/SetDNSSelf.jpg)
+![Run PowerShell command to assign self as DNS Server](/SetDnsSelf.jpg)
 
 ---
 
