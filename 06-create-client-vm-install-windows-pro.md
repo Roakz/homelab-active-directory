@@ -62,11 +62,7 @@ The VM was configured to use VirtIO-based storage and networking to improve perf
 ## Screenshots
 
 * VM creation summary
-* System tab
-* Disk tab
-* CPU tab
-* Memory tab
-* Network tab
+![Client machine VM summary](./ClientMachine/Summary)
 
 ---
 
