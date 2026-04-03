@@ -48,13 +48,13 @@ Windows Server does not include native drivers for Proxmox virtual hardware. Vir
 ## Screenshots
 
 *ISO Mounted as CD/DVD
-![Mounted VirtIO ISO](/VirtIOMounted.jpg)
+![Mounted VirtIO ISO](./InitialImages/VirtIOMounted.jpg)
 
 *ISO contents on drive
-![VirtIO ISO contents](/VirtIOGuestTools.jpg)
+![VirtIO ISO contents](./InitialImages/VirtIOGuestTools.jpg)
 
 *Confirmed VirtIO network adapter
-![VirtIO Network adapter in device manager](/VirtIONetworkAdapter.jpg)
+![VirtIO Network adapter in device manager](./InitialImages/VirtIONetworkAdapter.jpg)
 
 ---
 
@@ -94,15 +94,15 @@ Active Directory requires a stable network configuration with a static IP.
 ## Screenshots
 
 * `Get-NetAdapter`
-![Running PowerShell Get-NetAdapter command](/GetNetAdapter.jpg)
+![Running PowerShell Get-NetAdapter command](./InitialImages/GetNetAdapter.jpg)
 
 * Static IP configuration
-![Run PowerShell command to set static IP](/IPStatic.jpg)
+![Run PowerShell command to set static IP](./InitialImages/IPStatic.jpg)
   
 * `ipconfig`
 * Successful ping to gateway
 * Successful `nslookup google.com`
-![Verify Network configurations, connectivity, and test DNS](/ConfirmNetwork.jpg)
+![Verify Network configurations, connectivity, and test DNS](./InitialImages/ConfirmNetwork.jpg)
 
 ---
 
@@ -126,10 +126,10 @@ Rename-Computer -NewName DC01 -Restart
 ## Screenshots
 
 * Rename command
-![Rename server with PowerShell command](/Rename.jpg)
+![Rename server with PowerShell command](./InitialImages/Rename.jpg)
   
 * `hostname` output after reboot
-![verify hostname post restart](/hostname.jpg)
+![verify hostname post restart](./InitialImages/hostname.jpg)
 
 ---
 
@@ -158,7 +158,7 @@ nslookup google.com
 * Ping success
 * `nslookup` success
 
-![Verify Network configurations, connectivity, and test DNS](/ConfirmNetwork.jpg)
+![Verify Network configurations, connectivity, and test DNS](./InitialImages/ConfirmNetwork.jpg)
 
 ---
 
@@ -182,10 +182,10 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ## Screenshots
 
 * Installation command
-![Install Active Directory role](/ADInstalling.jpg)
+![Install Active Directory role](./InitialImages/ADInstalling.jpg)
 
 * Success output
-![Success prompt for AD role install](/ADInstallSuccess.jpg)
+![Success prompt for AD role install](./InitialImages/ADInstallSuccess.jpg)
 
 ---
 
@@ -224,10 +224,10 @@ Install-ADDSForest `
 
 * Promotion command
 * Installation progress
-![Run PowerShell command to install AD Forest](/InstallADForest.jpg)
+![Run PowerShell command to install AD Forest](./InitialImages/InstallADForest.jpg)
 
 * Login screen showing `LAB\Administrator`
-![VM Login screen showing LAB\Administrator](/VMLoginDomainController.jpg)
+![VM Login screen showing LAB\Administrator](./InitialImages/VMLoginDomainController.jpg)
 
 ---
 
@@ -249,7 +249,7 @@ hostname
 
 * `whoami`
 * `hostname`
-![Result of whoami and hostname command for domain verification](/PostDomainControllerPromotion.jpg)
+![Result of whoami and hostname command for domain verification](./InitialImages/PostDomainControllerPromotion.jpg)
 
 ---
 
@@ -274,7 +274,7 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet" `
 ## Screenshots
 
 * Command execution
-![Run PowerShell command to assign self as DNS Server](/SetDnsSelf.jpg)
+![Run PowerShell command to assign self as DNS Server](./InitialImages/SetDnsSelf.jpg)
 
 ---
 
