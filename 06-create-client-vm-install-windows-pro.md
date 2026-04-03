@@ -85,8 +85,7 @@ During installation, no product key was entered. This is acceptable for a lab en
 ## Screenshots
 
 * Windows setup start screen
-* Edition selection screen
-* Product key screen
+  ![Windows installing](./ClientMachine/Installing.jpg)
 
 ---
 
@@ -121,9 +120,11 @@ After loading the correct driver, the virtual disk appeared and Windows installa
 ## Screenshots
 
 * "No drives found" screen
-* Driver load window
-* Driver selection showing Red Hat VirtIO SCSI controller
-* Disk appearing after driver load
+![Windows disk selection screen showing no disk found](./ClientMachine/CantFindDrive.jpg)
+* VirtIO Controller driver selection
+![An image of VirtIO Controller driver being selected](./ClientMachine/VirtIOControllerDriver.jpg)
+* Disk appears after installing the VirtIO SCSI controller driver
+![Windows disk selection screen showing disk after driver install](./ClientMachine/Summary.jpg)
 
 ---
 
@@ -149,7 +150,7 @@ Windows installation and first-time setup completed successfully.
 ## Screenshots
 
 * No internet prompt during setup
-* Continue with limited setup prompt
+![No internet found for installation](./ClientMachine/NoNetworkYetDriverMissing.jpg)
 
 ---
 
@@ -180,9 +181,10 @@ After installation and reboot, the client VM had a working network adapter and f
 
 ## Screenshots
 
-* VirtIO ISO mounted in Proxmox
+* VirtIO Guest Tools Installation
+![VirtIO guest tools installation screen](./ClientMachine/VirtIOGuestToosInstallation.jpg)
 * Installer running
-* Installer completion screen
+![VirtIO driver installation screen](./ClientMachine/InstallingVirtIODrivers.jpg)
 
 ---
 
@@ -196,9 +198,7 @@ Confirm that the correct VirtIO drivers were installed successfully.
 
 ### Network Adapter Check
 
-```powershell
-Get-NetAdapter
-```
+Checked the network adapter was present and verified its name. Red Hat VirtIO Network Adapter present.
 
 ### Expected Result
 
@@ -210,7 +210,8 @@ This confirmed that the client VM was using the correct VirtIO network driver ra
 
 ## Screenshots
 
-* `Get-NetAdapter` output showing Red Hat VirtIO Ethernet Adapter
+* Image of the network adapter in the network connections GUI
+![Image of the network adapter in the network connections GUI](./ClientMachine/NetworkAdapterVerified.jpg)
 
 ---
 
@@ -249,9 +250,8 @@ ping 192.168.0.10
 
 ## Screenshots
 
-* `ipconfig`
-* Successful ping to `8.8.8.8`
-* Successful ping to `google.com`
+* `ipconfig`, Successful ping to `8.8.8.8`, Successful ping to `google.com`, Successful ping to domain controller
+![Screenshot of cmd output of ipconfig and ping to google, googles IP and domain controller](./ClientMachine/VerifyNetworkConfigAndPingDomainHost.jpg)
 
 ---
 
