@@ -124,7 +124,7 @@ After loading the correct driver, the virtual disk appeared and Windows installa
 * VirtIO Controller driver selection
 ![An image of VirtIO Controller driver being selected](./ClientMachine/VirtIOControllerDriver.jpg)
 * Disk appears after installing the VirtIO SCSI controller driver
-![Windows disk selection screen showing disk after driver install](./ClientMachine/Summary.jpg)
+![Windows disk selection screen showing disk after driver install](./ClientMachine/DiskNowVisible.jpg)
 
 ---
 
