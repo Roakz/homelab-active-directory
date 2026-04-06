@@ -65,4 +65,4 @@ In progress – building out Active Directory environment and helpdesk scenarios
 
 ## 🎯 Goal
 
-To transition into an entry-level IT support role with practical, hands-on experience backed by documented lab work.
+To develop hands-on skills with virtualisation, Active Directory and networking fundamentals via lab work.
