@@ -169,7 +169,7 @@ Successful authentication against Active Directory confirmed.
 * Windows login screen showing domain
 ![Windows login screen showing domain](./DomainJoin/AdminLoginScreen.jpg)
 * Desktop after login
-* ![user details in start menu showing lab.local administrator is logged in](./DomainJoin/DomainJoinSuccess.jpg)
+* ![user details in start menu showing lab.local administrator is logged in](./DomainJoin/AdminLoginSuccess.jpg)
 
 ---
 
