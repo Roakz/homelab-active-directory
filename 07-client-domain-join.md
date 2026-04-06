@@ -60,7 +60,7 @@ The client was unable to resolve `lab.local` despite correct IPv4 DNS configurat
 ## Symptoms
 
 * IPv6 DNS server listed before IPv4 DNS under ipconfig /all
-![PowerShell image showing command run to set DNS](./DomainJoin/PowerShellDnsConfig.jpg)
+![PowerShell image showing command run to set DNS](./DomainJoin/PowershellDnsConfig.jpg)
 
 ## Root Cause
 
