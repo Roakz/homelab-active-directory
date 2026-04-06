@@ -46,7 +46,8 @@ DNS Servers . . . . . : 192.168.0.10
 
 ## Screenshots
 
-* ipconfig showing DNS set to DC01
+* PowerShell command Set-DnsClientServerAddress sets the DNS server
+![PowerShell image showing command run to set DNS](./DomainJoin/PowerShellSetDns.jpg)
 
 ---
 
@@ -58,9 +59,8 @@ The client was unable to resolve `lab.local` despite correct IPv4 DNS configurat
 
 ## Symptoms
 
-* Successful ping to Domain Controller IP
-* Failure to resolve `lab.local`
-* IPv6 DNS server listed before IPv4 DNS
+* IPv6 DNS server listed before IPv4 DNS under ipconfig /all
+![PowerShell image showing command run to set DNS](./DomainJoin/PowerShellDnsConfig.jpg)
 
 ## Root Cause
 
@@ -82,35 +82,10 @@ nslookup lab.local
 
 ## Screenshots
 
-* ipconfig showing IPv6 DNS (before)
-* nslookup failure
-* Adapter properties with IPv6 disabled
-* nslookup success
+* nslookup  and ping success
+* IPv4 is now only visible in ipconfig
 
----
-
-# 3. Connectivity Verification
-
-## Purpose
-
-Confirm the client can communicate with the Domain Controller.
-
-## Commands
-
-```powershell
-ping 192.168.0.10
-nslookup lab.local
-```
-
-## Outcome
-
-* Domain Controller reachable via IP
-* Domain successfully resolved via DNS
-
-## Screenshots
-
-* Ping success
-* nslookup success
+![PowerShell image showing command run to set DNS](./DomainJoin/DisableIPV6.jpg)
 
 ---
 
@@ -149,7 +124,9 @@ The client machine successfully joined the domain.
 
 * Domain entry screen
 * Credential prompt
+![System settings screen for domain join](./DomainJoin/JoinDomain.jpg)
 * "Welcome to the lab.local domain" message
+* ![Pop-up indicating successful domain join](./DomainJoin/DomainJoinSuccess.jpg)
 
 ---
 
@@ -166,12 +143,6 @@ Keyboard mapping mismatch between host system and VM console.
 ## Resolution
 
 Used the Windows On-Screen Keyboard within the VM to input credentials accurately.
-
-## Alternative Workarounds
-
-* Using lowercase credentials
-* Using UPN format ([administrator@lab.local](mailto:administrator@lab.local))
-* Copy and paste (if supported)
 
 ## Outcome
 
