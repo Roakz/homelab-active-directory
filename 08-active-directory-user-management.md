@@ -35,7 +35,7 @@ The domain structure and built-in user accounts were visible and ready for manag
 ## Screenshots
 
 * AD Users and Computers console open
-![An image of Active Directory Users and Computers Console Open on the client machine](./ActiveDirectoryUserManagement/ADUsersComputers)
+![An image of Active Directory Users and Computers Console Open on the client machine](./ActiveDirectoryUserManagement/ADUsersComputers.jpg)
 
 ---
 
@@ -81,9 +81,9 @@ A new domain user (`rbell`) was successfully created.
 ## Screenshots
 
 * New user creation wizard
-![An image of Active Directory User Creation Wizard GUI](./ActiveDirectoryUserManagement/UserContainerNewUser)
+![An image of Active Directory User Creation Wizard GUI](./ActiveDirectoryUserManagement/UserContainerNewUser.jpg)
 * User visible in AD list
-![Domain User container shows the new created user on DC01](./ActiveDirectoryUserManagement/UserInList)
+![Domain User container shows the new created user on DC01](./ActiveDirectoryUserManagement/UserInList.jpg)
 ---
 
 # 3. Logging in as Domain User
@@ -144,9 +144,9 @@ Confirmed authentication against the Active Directory domain.
 ## Screenshots
 
 * Login Screen
-![Login screen on client machine showing credentials being entered for newly created domain user](./ActiveDriectoryUserManagement/rbellLabLogin)
+![Login screen on client machine showing credentials being entered for newly created domain user](./ActiveDriectoryUserManagement/rbellLabLogin.jpg)
 * whoami output
-* ![Image showing the output of whoami on the client machine once it was logged in](./ActiveDirectoryUserManagement/whoamiClient)
+* ![Image showing the output of whoami on the client machine once it was logged in](./ActiveDirectoryUserManagement/whoamiClient.jpg)
 ---
 
 # 5. User Profile Behaviour
