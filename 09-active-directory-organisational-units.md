@@ -210,10 +210,15 @@ Objects were successfully organised into appropriate OUs.
 ## Screenshots
 
 * Move dialogue
+  
 ![Image of the move unit GUI](./OUs/MoveUserToOU.jpg)
+
 * User inside OU
+  
 ![Image of rbell user inside the _Users organisational unit](./OUs/UserInOU.jpg)
+
 * Computer inside OU
+  
 ![Image of the CLIENT01 computer inside the _Computers OU](./OUs/CLIENT01InOU.jpg)
 
 ---
