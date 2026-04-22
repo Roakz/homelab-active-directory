@@ -54,7 +54,8 @@ The goal is to build hands-on experience with:
 * [Active Directory Setup](./05-active-directory-domain-controller-setup.md)
 * [Create Client VM & Setup](./06-create-client-vm-install-windows-pro.md)
 * [Joining Client Machine To The Domain](./07-client-domain-join.md)
-* [Creating Active Directory User Account Domain Controller](./08-active-directory-user-management.md)
+* [Active Directory User Accounts](./08-active-directory-user-management.md)
+* [Active Directory Organisational Units](./09-active-directory-organisational-units.md)
 * (More coming as lab progresses)
 
 ---
