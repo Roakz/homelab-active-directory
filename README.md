@@ -53,7 +53,7 @@ The goal is to build hands-on experience with:
 * [Windows Server Install](./04-windows-server-install.md)
 * [Active Directory Setup](./05-active-directory-domain-controller-setup.md)
 * [Create Client VM & Setup](./06-create-client-vm-install-windows-pro.md)
-* [Joining Client Machine To The Domain](./07-client-domain-join.md
+* [Joining Client Machine To The Domain](./07-client-domain-join.md)
 * [Creating Active Directory User Account Domain Controller](./08-active-directory-user-management.md)
 * (More coming as lab progresses)
 
