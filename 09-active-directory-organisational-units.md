@@ -90,6 +90,7 @@ Top-level OUs were created to separate user and computer objects.
 ## Screenshots
 
 * OU creation dialogue
+  
 ![Image of OU creation GUI](./OUs/CreateOU.jpg)
 
 * Top-level OU structure
