@@ -144,7 +144,7 @@ Confirmed authentication against the Active Directory domain.
 ## Screenshots
 
 * Login Screen
-![Login screen on client machine showing credentials being entered for newly created domain user](./ActiveDriectoryUserManagement/rbellLabLogin.jpg)
+![Login screen on client machine showing credentials being entered for newly created domain user](./ActiveDirectoryUserManagement/rbellLabLogin.jpg)
 * whoami output
 * ![Image showing the output of whoami on the client machine once it was logged in](./ActiveDirectoryUserManagement/whoamiClient.jpg)
 ---
